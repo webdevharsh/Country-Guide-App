@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}  
+
+body{
+background:#FF7F50; 
+font-family: 'poppins', sans-serif;
+}
+
+.container{
+padding:25px;
+width:350px;
+background:white;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+border-radius:7px;
+}
+
+.container .userInput{
+all:unset; 
+height:45px;
+width:100%;
+border-bottom:1px solid #FF7F50;
+}
+
+.container .search-btn{
+all:unset; 
+height:40px;
+width:100%;
+background:#FF7F50; 
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:30px;
+margin-top:10px;
+cursor:pointer;
+}
+
+.container .info-box .imgBox{
+height:150px; 
+width:150px;
+display:flex;
+align-items:center;
+justify-content:center;
+margin:auto;
+margin-top:10px;
+}
+
+.container .info-box .imgBox img{
+height:150px;  
+width:150px;
+}
+
+.container .info-box .countryName{
+text-align:center;
+margin-top:-17px;
+text-transform:uppercase;
+}
+
+.container .info-box .moreDetails{
+margin-top:17px;        
+}
+
+.container .info-box .moreDetails p{
+font-weight:600; 
+font-size:14px;
+margin-top:6px;
+}
+
+.container .info-box .moreDetails span{
+font-weight:400;  
+margin-left:2px;
+}
+
+.container .info-box .invalid-name-message{
+text-align:center; 
+margin-top:10px;
+white-space:nowrap;
+font-size:15px;
+}
